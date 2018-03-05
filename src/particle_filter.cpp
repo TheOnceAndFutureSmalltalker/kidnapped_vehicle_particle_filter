@@ -22,7 +22,7 @@ using namespace std;
 void ParticleFilter::init(double x, double y, double theta, double std[]) {
 
 	// initialize number of particles
-	num_particles = 500;
+	num_particles = 200;
 
     // This creates a normal (Gaussian) distribution for x, y, and theta
 	normal_distribution<double> dist_x(x, std[0]);
